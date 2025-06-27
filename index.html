@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e08e1f5afa.js" crossorigin="anonymous"></script>
+
+
+    <title>DAVID DANIELS ||PORTFOLIO</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">David</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn" onclick="downloadCV()">Download CV <i class="fa-solid fa-download"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>David Daniels</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Experienced frontend developer with a passion for creating visually stunning
+                            and user-friendly websites.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Hire Me</button>
+                        <button class="btn" onclick="downloadCV()" >Download CV <i class="fa-solid fa-download"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                        <div class="icon"><i class="fa-brands fa-github"></i></div>
+                        <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+                        <div class="icon"><i class="fa-brands fa-discord"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="/PORTFOLIO/files/images/about-me1.png" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="fa-solid fa-down-long"></i>
+                        <p>Read More</p>
+                    </a>
+                </div>
+
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+
+
+
+            <!--ABOUT ME SECTION-->
+            <section class="about" id="about">
+                <div class="about-img">
+                    <img src="/PORTFOLIO/files/images/about me.png" alt="">
+                </div>
+
+                <div class="about-content">
+                    <p>
+                        "Dynamic ICT student,aspiring full-stack developer and designer and multi-disciplinary tech
+                        enthusiast
+                        with a passion for building digital solutions and empowering
+                        others. Beyond the code, I thrive as a facilitator and project manager—orchestrating
+                        events and teams to turn ideas into impact. My toolbox blends
+                        technical skills (HTML/CSS, JavaScript, UI/UX) with leadership,
+                        making me a versatile asset for innovative projects."
+                    </p>
+                    <div class="languages">
+                        <div class="lan-images">
+                            <img src="/PORTFOLIO/files/images/html.png" alt="HTML logo image">
+                            <img src="/PORTFOLIO/files/images/CSS.png" alt="CSS logo image">
+                            <img src="/PORTFOLIO/files/images/mysql.png" alt="MySQL logo image">
+                            <img src="/PORTFOLIO/files/images/react.jpeg" alt="react image">
+                            <img src="/PORTFOLIO/files/images/node.png" alt="NODE JS logo">
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+
+
+            <!--SKILLS AND CIRCLES-->
+
+            <section class="skills-section" id="skills">
+                <h1>My Skills</h1>
+
+                <!-- Technical Skills with Progress Bars -->
+                <div class="skills-category">
+                    <h2>Technical Skills</h2>
+                    <div class="progress-bars-container">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress html"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>CSS</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress css"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>DATABASE</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress database"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>CISCO NETWORKING</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress cisco"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Skills with Circle Bars -->
+                <div class="skills-category">
+                    <h2>Professional Skills</h2>
+                    <div class="circle-bars-container">
+                        <div class="circle-progress">
+                            <div class="circle-progress-item" data-percent="85">
+                                <svg class="circle-chart" viewBox="0 0 36 36">
+                                    <path class="circle-bg"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <path class="circle-fill ict" stroke-dasharray="85, 100"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                </svg>
+                                <div class="circle-info">
+                                    <span>FACILITATOR</span>
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="circle-progress">
+                            <div class="circle-progress-item" data-percent="60">
+                                <svg class="circle-chart" viewBox="0 0 36 36">
+                                    <path class="circle-bg"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <path class="circle-fill facilitator" stroke-dasharray="90, 100"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                </svg>
+                                <div class="circle-info">
+                                    <span>ICT TECHNICIAN</span>
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="circle-progress">
+                            <div class="circle-progress-item" data-percent="80">
+                                <svg class="circle-chart" viewBox="0 0 36 36">
+                                    <path class="circle-bg"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <path class="circle-fill project" stroke-dasharray="80, 100"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                </svg>
+                                <div class="circle-info">
+                                    <span>PROJECT MANAGER</span>
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="circle-progress">
+                            <div class="circle-progress-item" data-percent="75">
+                                <svg class="circle-chart" viewBox="0 0 36 36">
+                                    <path class="circle-bg"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <path class="circle-fill event" stroke-dasharray="75, 100"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                </svg>
+                                <div class="circle-info">
+                                    <span>EVENT MANAGER</span>
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="circle-progress">
+                            <div class="circle-progress-item" data-percent="70">
+                                <svg class="circle-chart" viewBox="0 0 36 36">
+                                    <path class="circle-bg"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <path class="circle-fill business" stroke-dasharray="70, 100"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                </svg>
+                                <div class="circle-info">
+                                    <span>BUSINESS MANAGEMENT</span>
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--PROJECTS SECTION 1-->
+
+            <section class="portfolio" id="portfolio">
+                <h2 class="heading">Here are <span>some of the completed projects</span></h2>
+
+
+                <div class="portfolio">
+                    <h2>My Portfolio</h2>
+                    <div class="portfolio-container">
+                        <!-- Card 1 -->
+                        <div class="portfolio-card">
+                            <div class="card-image">
+                                <img src="/PORTFOLIO/files/images/ktvc-web.png" alt="Kandara Technical College Website">
+                            </div>
+                            <div class="card-content">
+                                <h4>Kandara Technical College Website</h4>
+                                <p>Smart College website designed to streamline communication, showcase academic offerings and operations. Integrated with a secure
+                                    Gatepass Management System designed for administrators for efficient tracking of students while promoting transapernct and safety in
+                                    the instittion
+                                </p>
+                                <a href="#" class="card-link">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <!-- Card 2 -->
+                        <div class="portfolio-card">
+                            <div class="card-image">
+                                <img src="/PORTFOLIO/files/images/leta-biz.png" alt="Project 2">
+                            </div>
+                            <div class="card-content">
+                                <h4>Leta Biz Sokoni</h4>
+                                <p>An online e-commerce plartfomr that connects buyers and sellers within the same region. <strong>Leta Biz Sokoni </strong> empowers
+                                local trade with smart feartures like real-time price comparison, trusted seller ratingsand listings making buying and selling 
+                            fast, secure, reliable and fair.</p>
+                                <a href="#" class="card-link">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <!--Card 3-->
+                        <div class="portfolio-card">
+                            <div class="card-image">
+                                <img src="/PORTFOLIO/files/images/python-billing.jpg" alt="Project 2">
+                            </div>
+                            <div class="card-content">
+                                <h4>Python shop billing system</h4>
+                                <p>A billing system designed for small or medium retail and wholesale shops. The system captures customer name,
+                                    items, prices and prints out a clean printable receipt. Designed to streamline checkout processes and 
+                                    daily-sales tracking with minimal output
+                                </p>
+                                <a href="#" class="card-link">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                        <!--Card 4-->
+                        <div class="portfolio-card">
+                            <div class="card-image">
+                                <img src="/PORTFOLIO/files/images/agri-match.png" alt="Project 2">
+                            </div>
+                            <div class="card-content">
+                                <h4>Agri-Match Website</h4>
+                                <p> <strong>Bridging Fields to tables</strong> A smart plartform designed to connect farmers to customers and vice versa
+                                boosting local produce access. With "Tap to find" tab that will connect you to the nearest farmer or customer offering the goods 
+                                of your preference. <i>Empowering communities through seamless and real-time farm-markett interactions.</i> </p>
+                                <a href="#" class="card-link">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
+                                </a>
+                            </div>
+                        </div>
+
+
+
+
+                        <!-- Card 5 -->
+                        <div class="portfolio-card">
+                            <div class="card-image">
+                                <img src="/PORTFOLIO/files/images/ktvc-project.png" alt="Project 3">
+                            </div>
+                            <div class="card-content">
+                                <h4>KTVC Gatepass Verification System</h4>
+                                <p>A secure web application designed to automate and streamline gatepass Verification
+                                    by allowing real-time verification using unique ID's reducing manual checks and
+                                    ensuring accurate entries and exits records.</p>
+                                <a href="#" class="card-link">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </section>
+
+
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects Summative Report.</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="fa-brands fa-r-project"></i>
+                        <h3>Completed</h3>
+                        <label>15+ Finished Projects</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="fa-solid fa-users"></i>
+                        <h3>Clients</h3>
+                        <label>25+ Happy Clients</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="fa-solid fa-star"></i>
+                        <h3>Quality</h3>
+                        <label>Quality code output</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>Upcoming projects</h3>
+                        <label>12+ Under-development projects</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>I'm open to that project in your mind, let's collaborate and make it happen</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="fa-solid fa-arrows-turn-to-dots"></i></h2>
+                            <p><i class="fa-solid fa-envelope"></i></i> Email: codeproject1@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i> Tel: +254 701 759 905</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <form id="my-form" action="https://formspree.io/f/xldnoqjy" method="POST">
+                                <div class="form-inputs">
+                                    <input type="text" class="input-field" placeholder="Name" name="name" required>
+                                    <input type="text" class="input-field" placeholder="Email" email="email" required>
+                                </div>
+                                <div class="text-area" name="message">
+                                    <textarea placeholder="Message" required></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button class="btn" type="submit">Send <i
+                                            class="fa-regular fa-paper-plane"></i></i></button>
+                                </div>
+                                <p id="my-form-status"></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>David Daniels .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="icon"><i class="fa-brands fa-x"></i></div>
+                <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+                <div class="icon"><i class="fa-brands fa-github"></i></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">David Daniels</a> - All rights
+                    reserved
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+</body>
+
+
+<div class="intro-overlay">
+    <div class="intro-content">
+        <span class="intro-text"></span>
+        <span class="intro-cursor">|</span>
+    </div>
+</div>
+
+
+
+</html>
