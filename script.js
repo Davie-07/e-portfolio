@@ -156,7 +156,7 @@ form.addEventListener("submit", handleSubmit)
 function downloadCV() {
     // Create a temporary anchor element
     const link = document.createElement('a');
-    link.href = '/PORTFOLIO/files/cv/DAVID-DANIELS-CV.pdf';
+    link.href = 'files/cv/DAVID-DANIELS-CV.pdf';
     link.download = 'David-Daniels.pdf'; // The filename for the downloaded file
     
     // Append to body, trigger click, then remove
